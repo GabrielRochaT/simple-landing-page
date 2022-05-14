@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Yanone+Kaffeesatz:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #3d1472 16.62%, #38033a 85.61%);
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.img_cabecalho{
+    height: 60px;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 32px;
+}
+
+.item_cabecalho{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: wheat;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid wheat;
+}
+
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo_principal_escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo_principal_titulo{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: azure;
+}
+
+.conteudo_principal_subtitulo{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: wheat;
+    font-weight: 300;
+    font-size: 24px;
+
+}
+
+.conteudo_principal_botao{
+    background-color: blanchedalmond;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.conteudo_principal_botao:hover{
+    background-color: rgba(150, 121, 98, 0.973);
+}
+
+.conteudo_principal_imagem{
+    height: 350px;
+}
+
+.conteudo_secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.conteudo_secundario_titulo{
+    border-top: 0.4px solid wheat;
+    padding-top: 48px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: azure;
+    margin-bottom: 16px;
+
+}
+
+.conteudo_secundario_paragrafo{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: wheat;
+    font-weight: 300;
+    font-size: 24px;
+
+}
+
+.rodape{
+    border-top: 0.4px solid wheat;
+    padding: 32px;
+}
+
+.rodape_imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
